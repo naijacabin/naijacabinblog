@@ -1,0 +1,22 @@
+# Personal Details
+name: Naija Cabin
+author: Your Name
+author_email: honest@naijacabin.com.ng
+
+baseurl: "naijacabin.com.ng"
+url: http://naijacabin.com.ng/
+
+
+collections:
+    portfolio:
+ 
+# Build Settings
+timezone: "Africa/Bangui"
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+ 
+# Numbers of articles to appear on front page
+paginate: 3
